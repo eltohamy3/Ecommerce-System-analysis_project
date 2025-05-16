@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="uJSXcyq6jxCculOJBXqp">
-    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="3" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="836" grid="0" gridSize="3" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,38 +104,26 @@
         <mxCell id="PPA92dt54pCuNAgFpau3-59" value="Opt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="624" y="940" width="621" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="PPA92dt54pCuNAgFpau3-61" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;[cancel required]&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="680" y="943" width="131" height="29" as="geometry" />
+        <mxCell id="PPA92dt54pCuNAgFpau3-61" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;[cancel required]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="684" y="964" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PPA92dt54pCuNAgFpau3-62" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="672" y="677" as="sourcePoint" />
+            <mxPoint x="1203" y="677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPA92dt54pCuNAgFpau3-65" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;*&lt;/b&gt; [add item]&amp;nbsp;&lt;/font&gt;Updated shopping cart &lt;b&gt;:=&lt;/b&gt;&amp;nbsp;addToCart(itemId)&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="699" y="645" width="471" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="PPA92dt54pCuNAgFpau3-67" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="670.5" y="762" as="sourcePoint" />
+            <mxPoint x="1201.5" y="762" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PPA92dt54pCuNAgFpau3-68" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;*&lt;/b&gt; [delete item]&amp;nbsp;&lt;/font&gt;Updated shopping cart &lt;b&gt;:=&lt;/b&gt;&amp;nbsp;deleteFromCart(itemId)&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="668.5" y="761" width="532" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="AwjKqF2cYEXF0kDeO2BF-5" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="671.5" y="683" as="sourcePoint" />
-            <mxPoint x="1200" y="683" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AwjKqF2cYEXF0kDeO2BF-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot;&gt;[&lt;b&gt;add&lt;/b&gt;]&amp;nbsp;&lt;/font&gt;Updated inventory&amp;nbsp;&lt;b&gt;:=&lt;/b&gt;&amp;nbsp;addToCart(itemId)&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="748" y="647" width="387" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="AwjKqF2cYEXF0kDeO2BF-7" value="&lt;b&gt;Loop&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="601" y="606" width="654" height="89" as="geometry" />
-        </mxCell>
-        <mxCell id="AwjKqF2cYEXF0kDeO2BF-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[inventory items]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="667.5" y="608" width="131" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="AwjKqF2cYEXF0kDeO2BF-9" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="671.5" y="795" as="sourcePoint" />
-            <mxPoint x="1200" y="795" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AwjKqF2cYEXF0kDeO2BF-11" value="&lt;b&gt;Loop&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="601" y="718" width="654" height="89" as="geometry" />
-        </mxCell>
-        <mxCell id="AwjKqF2cYEXF0kDeO2BF-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[cart items]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="686.5" y="720" width="93" height="29" as="geometry" />
+          <mxGeometry x="667.5" y="730" width="532" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
